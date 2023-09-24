@@ -1,0 +1,36 @@
+{
+  "name": "Simple-MMO",
+  "version": "1.0.0",
+  "description": "Simple MMO",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "electron": "^26.2.2",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "com.example.simple-mmo",
+    "productName": "Simple-MMO",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "icons/*"
+    ],
+    "mac": {
+      "icon": "icons/icon.icns"
+    },
+    "win": {
+      "icon": "icons/icon.ico"
+    }
+  }
+}
