@@ -1,8 +1,9 @@
 {
-  "name": "Simple-MMO",
+  "name": "Simple-MMO-Client",
   "version": "1.0.0",
-  "description": "Simple MMO",
+  "description": "Simple MMO Client",
   "main": "main.js",
+  "icon": "icons/icon.ico",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
@@ -17,7 +18,7 @@
   },
   "build": {
     "appId": "com.example.simple-mmo",
-    "productName": "Simple-MMO",
+    "productName": "Simple-MMO-Client",
     "directories": {
       "output": "dist"
     },

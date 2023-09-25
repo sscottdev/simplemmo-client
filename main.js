@@ -13,7 +13,7 @@ function createWindow() {
     });
 
 
-    win.setTitle('My Simple MMO'); // Replace with your desired application name
+    win.setTitle('My Simple MMO');
 
 
     // Load the website URL.
